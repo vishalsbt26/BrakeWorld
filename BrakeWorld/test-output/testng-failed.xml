@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [loginTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="loginScenarios(failed)">
+    <classes>
+      <class name="com.demo.test.loginTest">
+        <methods>
+          <include name="login" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="exitTest"/>
+        </methods>
+      </class> <!-- com.demo.test.loginTest -->
+    </classes>
+  </test> <!-- loginScenarios(failed) -->
+</suite> <!-- Failed suite [loginTest] -->
